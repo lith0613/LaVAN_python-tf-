@@ -8,6 +8,7 @@ os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 from keras import backend as K
 config = tf.ConfigProto()
+# Be nice to others =)
 config.gpu_options.allow_growth=True
 sess = tf.Session(config=config)
 
